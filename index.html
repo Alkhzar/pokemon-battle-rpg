@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>PokeRPG</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="assets/stylesheets/reset.css">
+		<link rel="stylesheet" href="assets/stylesheets/style.css">
+	</head>
+	<body class="container">
+		<!-- Title Heading -->
+		<h1>Pokemon Battle</h1>
+		<!-- BattleScreen -->
+		<section class="container battleScreenContainer">
+			<!-- Enemy -->
+			<section class="container enemyContainer">
+				<!-- Enemy Stats -->
+				<section class="container enemyStatsContainer">
+					<h2 class="name enemyName">enemy name</h2>
+					<section class="container enemyLevelContainer">
+						<h3 class="level">L:</h3>
+						<h3 class="enemyLevel">0</h3>
+					</section>
+					<section class="container enemyHPContainer">
+						<h3 class="hp">HP:</h3>
+						<progress class="enemyHPBar" value="100" max="100">100%</progress>
+					</section>
+				</section>
+				<!-- Enemy Image -->
+				<section class="container enemyImgContainer">
+					<img src="assets/images/bulbasaurFront.png" alt="Image of the enemy" class="enemyImage">
+				</section>
+			</section>
+			<!-- Player -->
+			<section class="container playerContainer">
+				<!-- Player Image -->
+				<section class="container playerImgContainer">
+					<img src="assets/images/squirtleBack.png" alt="Image of the player" class="playerImage">
+				</section>
+				<!-- Player Stats -->
+				<section class="container playerStatsContainer">
+					<h2 class="name playerName">player name</h2>
+					<section class="container playerLevelContainer">
+						<h3 class="level">L:</h3>
+						<h3 class="playerLevel">0</h3>
+					</section>
+					<section class="container playerHPContainer">
+						<h3 class="hp">HP:</h3>
+						<progress class="playerHPBar" value="100" max="100">100%</progress>
+					</section>
+				</section>
+			</section>
+			<!-- Battle Menu -->
+			<section class="container battleMenuContainer">
+				<!-- Dialogue -->
+				<section class="container dialogueContainer">
+					<h2 class="playerDialogue">player dialogue</h2>
+					<h2 class="enemyDialogue">enemy dialogue</h2>
+				</section>
+				<!-- Play again button -->
+				<h2 class="playAgainDialogue"><a href="index.html" class="playAgainButton">Play Again?</a></h2>
+				<!-- Menu Choices -->
+				<section class="container menuChoicesContainer">
+					<h2 class="menuChoice attack">Attack</h2>
+					<h2 class="menuChoice heal">Heal</h2>
+					<h2 class="menuChoice skip">Skip</h2>
+					<h2 class="menuChoice giveUp">Give up</h2>
+				</section>
+			</section>
+		</section>
+		<script type="text/javascript" src="assets/scripts/main.js"></script>
+	</body>
+</html>
